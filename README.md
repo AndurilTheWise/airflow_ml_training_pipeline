@@ -9,7 +9,7 @@ The system trains trip duration prediction models using parquet datasets and dyn
 
 ## High-level pipeline overview
 
-![Airflow DAG Outline](images/dag_outline.png)
+![Airflow DAG Outline](images/DAG_outline.png)
 
 The Airflow DAG orchestrates the full ML workflow from data loading to model evaluation.
 Each step is a separate task with explicit dependencies.
